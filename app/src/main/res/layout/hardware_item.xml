@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="114dp"
+        android:layout_height="95dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/robozin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="TOMORROW ROBOTKS"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintStart_toEndOf="@id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="239dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:maxLines="4"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toEndOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        tools:text="vbhfhrguurughhtruththrtrhhtrhtubbdjbhhgggyyfffff" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/viewVagas"
+        android:layout_width="143dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:textColor="#5271FF"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/text"
+        tools:text="Visualizar Vaga" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

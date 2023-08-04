@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">Login_blueworks</string>
+    <string name="app_slogan" translatable="false">Welcome back to BlueWorks</string>
+    <string name="app_welcome" translatable="false">Home Screen</string>
+    <string name="text_forgot_password" translatable="false">Forgot Passsword</string>
+    <string name="text_sign_in" translatable="false">Sign in</string>
+    <string name="text_sign_up" translatable="false">Sign Up</string>
+    <string name="text_password" translatable="false">Password</string>
+    <string name="text_email_or_username" translatable="false">Email or Username</string>
+    <string name="text_error_fill_mandatory_information" translatable="false">Mandatory information</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_nav" />
+    <string name="close_nav" />
+</resources>

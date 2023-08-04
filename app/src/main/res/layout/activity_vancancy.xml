@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/imageView_Logo_empresa"
+        android:layout_width="132dp"
+        android:layout_height="115dp"
+        app:srcCompat="@drawable/cake"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView_Nome_Empresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bolins Ana Maria"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Localização:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <TextView
+        android:id="@+id/textView_Localizacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barueri-SP"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cargo/Função:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textView_Cargo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confeitero(a)"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição Geral:"
+        android:textColor="#5271FF"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <TextView
+        android:id="@+id/textView_descricao_geral"
+        android:layout_width="378dp"
+        android:layout_height="133dp"
+        android:text="Preparar uma ampla variedade de produtos como bolos, cookies, tortas, pães, etc., seguindo receitas tradicionais e modernas. Criar sobremesas novas e interessantes para renovar nossos cardápios e atrair o interesse dos clientes."
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Requisitos:"
+        android:textColor="#5271FF"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <TextView
+        android:layout_width="372dp"
+        android:layout_height="81dp"
+        android:text="Criatividade e muita atenção aos detalhes.Capacidade de organização e de liderança.
+Disposição para reforçar o conhecimento profissional.
+Ensino Completo"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Outras Informações:"
+        android:textColor="#5271FF"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <TextView
+        android:id="@+id/textView_Outras_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mais informações: .........."
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="140dp"
+        android:layout_height="36dp"
+        android:background="@drawable/bg_button_normal"
+        android:text="Candidatar-se"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
