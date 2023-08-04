@@ -34,9 +34,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-     //   holder.nameView.setText(items.get(position).getHtmlText()); ERRO
+        holder.nameView.setText(items.get(position).getHtmlText());
         holder.textView.setText(items.get(position).getText());
-       // holder.imageView.setImageResource(items.get(position).); ERRO
+        //holder.imageView.setImageResource(items.get(position).getUri());
     }
 
     @Override
