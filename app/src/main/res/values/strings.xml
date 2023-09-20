@@ -23,7 +23,11 @@
     <string name="txt_school" translatable="false">Escolaridade: *</string>
     <string name="txt_about_me" translatable="false">Sobre mim: *</string>
     <string name="txt_next2" translatable="false">próximo</string>
-    <string name="txt_request1" />
-    <string name="request2">Requisitos</string>
+    <string name="request2" translatable="false">Requisitos</string>
+    <string name="txt_about" translatable="false">Sobre</string>
+    <string name="txt_blutps" translatable="false">Blue Tips</string>
+    <string name="txt_ver_vaga" translatable="false">Visualizar vaga</string>
+    <string name="txt_info_vaga" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et tempor dui. Nulla facilisi. Pellentesque tempor odio ac consequat condimentum. Donec sit amet ornare enim, non lobortis purus. Morbi iaculis dolor eu dolor accumsan, in iaculis neque metus.</string>
+
 
 </resources>

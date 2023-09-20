@@ -45,22 +45,23 @@
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toEndOf="@id/imageView"
         app:layout_constraintTop_toBottomOf="@id/name"
-        tools:text="vbhfhrguurughhtruththrtrhhtrhtubbdjbhhgggyyfffff" />
+        tools:text="@string/txt_info_vaga" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/viewvagas"
-        android:layout_width="143dp"
-        android:layout_height="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginStart="112dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="13dp"
         android:background="@color/white"
         android:textColor="#3E5DEC"
-        android:textSize="14sp"
+        android:textSize="20sp"
+        android:padding="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/imageView"
         app:layout_constraintTop_toBottomOf="@id/text"
-        tools:text="visualisar vaga" />
+        tools:text="@string/txt_ver_vaga" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
