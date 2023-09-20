@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Login_blueworks</string>
+    <string name="app_name" translatable="false">App_blueworks</string>
     <string name="app_slogan" translatable="false">Welcome back to BlueWorks</string>
     <string name="app_welcome" translatable="false">Home Screen</string>
     <string name="text_forgot_password" translatable="false">Forgot Passsword</string>
@@ -8,4 +8,22 @@
     <string name="text_password" translatable="false">Password</string>
     <string name="text_email_or_username" translatable="false">Email or Username</string>
     <string name="text_error_fill_mandatory_information" translatable="false">Mandatory information</string>
+    <string name="txt_geral">Description General</string>
+    <string name="txt_opjop" translatable="false">Oportunidades de emprego</string>
+    <string name="txt_request" translatable="false">Requisitos</string>
+    <string name="txt_other" translatable="false">Outras Informações</string>
+    <string name="txt_location" translatable="false">Localização:</string>
+    <string name="txt_function" translatable="false">Cargo/Função:</string>
+    <string name="txt_candy" translatable="false">Candidatar - se</string>
+    <string name="txt_text1" translatable="false">informe os dados abaixo e cadastre-se no site :</string>
+    <string name="txt_img1" translatable="false">imagem perfil</string>
+    <string name="txt_name2" translatable="false">Nome: *</string>
+    <string name="txt_document" translatable="false">CPF: *</string>
+    <string name="txt_birth" translatable="false">Nascimento: *</string>
+    <string name="txt_school" translatable="false">Escolaridade: *</string>
+    <string name="txt_about_me" translatable="false">Sobre mim: *</string>
+    <string name="txt_next2" translatable="false">próximo</string>
+    <string name="txt_request1" />
+    <string name="request2">Requisitos</string>
+
 </resources>

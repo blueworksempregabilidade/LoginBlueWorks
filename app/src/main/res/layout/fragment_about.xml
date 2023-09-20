@@ -1,18 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AboutFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="About Fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"
-        android:textColor="#5271FF"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="16sp"
+        android:layout_marginBottom="16sp"
+        android:padding="@dimen/cardview_compat_inset_shadow">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_about"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bem-vindo à Plataforma de Empregabilidade!
+              Ao acessar e utilizar nossos serviços, você concorda em cumprir os termos e condições abaixo:
+
+Cadastro e Informações Pessoais:
+Ao criar uma conta, você concorda em fornecer informações precisas e atualizadas. É responsabilidade do usuário manter suas informações de contato e perfil atualizadas.
+Uso Adequado:
+A plataforma destina-se ao uso exclusivo relacionado a oportunidades de emprego, networking profissional e desenvolvimento de carreira. É proibido o uso para atividades ilegais, difamatórias, abusivas ou que violem os direitos de terceiros.
+Conduta Respeitosa:
+Respeite outros usuários. Qualquer forma de assédio, discriminação, discurso de ódio ou comportamento prejudicial não será tolerado.
+Conteúdo Gerado:
+Você é responsável por qualquer conteúdo que compartilhar na plataforma. Não compartilhe informações falsas, enganosas ou confidenciais.
+Privacidade:
+Nós valorizamos sua privacidade. Consulte nossa Política de Privacidade para entender como suas informações são coletadas, usadas e protegidas.
+Oportunidades de Emprego:
+A plataforma exibe oportunidades de emprego de várias fontes. Não garantimos a validade de todas as vagas, portanto, recomendamos a verificação independente antes de tomar decisões.
+Propriedade Intelectual:
+Respeite os direitos autorais e de propriedade intelectual. Não publique conteúdo protegido por direitos autorais sem a devida autorização.
+Rescisão de Conta:
+Reservamos o direito de suspender ou encerrar contas que violem os termos de uso.
+Alterações nos Termos:
+Podemos atualizar estes termos periodicamente. O uso continuado da plataforma após as alterações constitui sua aceitação das novas condições.
+Ao acessar e usar nossa Plataforma de Empregabilidade, você concorda com estes termos. Lembre-se de que o não cumprimento desses termos pode resultar em medidas disciplinares, incluindo a suspensão ou rescisão da conta. Obrigado por se juntar a nós em nossa busca pela promoção da empregabilidade e do sucesso profissional!"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="52dp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

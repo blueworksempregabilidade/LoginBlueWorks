@@ -18,7 +18,7 @@ public class StartActivity  extends AppCompatActivity implements NavigationView.
     private DrawerLayout drawerLayout;
     private androidx.appcompat.widget.Toolbar toolbar;
 
-
+// modificar a tela activity_start em fragmento e alterar as info aqui
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -34,15 +34,20 @@
                 style="@style/TextAppearance.AppCompat.Headline"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="58dp"
                 android:text="@string/app_slogan"
                 android:textColor="@color/white"
-                tools:layout_editor_absoluteX="49dp"
-                tools:layout_editor_absoluteY="295dp" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/editText_credentials"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="26dp"
                 android:background="@drawable/bg_edit_normal"
                 android:hint="@string/text_email_or_username"
                 android:inputType="text"
@@ -50,13 +55,15 @@
                 android:paddingEnd="18dp"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="353dp" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_slogan" />
 
             <androidx.appcompat.widget.AppCompatEditText
                 android:id="@+id/editText_password"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginTop="30dp"
                 android:background="@drawable/bg_edit_normal"
                 android:hint="@string/text_password"
                 android:imeOptions="actionNone"
@@ -64,13 +71,15 @@
                 android:paddingEnd="18dp"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="431dp" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_credentials" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button_sign_in"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginTop="49dp"
                 android:background="@drawable/bg_button_normal"
                 android:letterSpacing="0.04"
                 android:text="@string/text_sign_in"
@@ -78,38 +87,47 @@
                 android:textColor="@color/white"
                 android:textSize="18dp"
                 android:textStyle="bold"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="530dp" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText_password" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/textView_forgot_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
                 android:text="@string/text_forgot_password"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="18sp"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="646dp" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_sign_up" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/textView_sign_up"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
                 android:text="@string/text_sign_up"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="18sp"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="621dp" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_sign_in" />
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="222dp"
                 android:layout_height="223dp"
-                app:srcCompat="@drawable/logo_works"
-                tools:layout_editor_absoluteX="94dp"
-                tools:layout_editor_absoluteY="55dp" />
+                android:layout_marginStart="94dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="95dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo_works" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

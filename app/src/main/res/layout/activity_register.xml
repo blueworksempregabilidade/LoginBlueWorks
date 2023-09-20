@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -13,114 +14,153 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-    <TextView
-        android:layout_width="131dp"
-        android:layout_height="38dp"
-        android:text="Endereço"
-        android:textSize="19dp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="2dp" />
 
-    <EditText
-        android:id="@+id/edit_text_cep"
-        android:layout_width="379dp"
-        android:layout_height="wrap_content"
-        android:hint="CEP:*"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="51dp" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="131dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="248dp"
+                android:text="Endereço"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/edit_text_cep"
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="CEP:*"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
 
-    <EditText
-        android:id="@+id/edit_text_street"
-        android:layout_width="379dp"
-        android:layout_height="wrap_content"
-        android:hint="Rua:*"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="114dp" />
+            <EditText
+                android:id="@+id/edit_text_street"
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:hint="Rua:*"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edit_text_cep" />
 
-    <EditText
-        android:id="@+id/edit_text_bairro"
-        android:layout_width="379dp"
-        android:layout_height="wrap_content"
-        android:hint="Bairro:*"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="177dp" />
+            <EditText
+                android:id="@+id/edit_text_bairro"
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:hint="Bairro:*"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edit_text_street" />
 
-    <EditText
-        android:id="@+id/edit_text_city"
-        android:layout_width="379dp"
-        android:layout_height="wrap_content"
-        android:hint="Cidade:*"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="245dp" />
+            <EditText
+                android:id="@+id/edit_text_city"
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:hint="Cidade:*"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edit_text_bairro" />
 
-    <EditText
-        android:id="@+id/edit_text_state"
-        android:layout_width="379dp"
-        android:layout_height="wrap_content"
-        android:hint="Estado:*"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="314dp" />
+            <EditText
+                android:id="@+id/edit_text_state"
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:hint="Estado:*"
+                android:minHeight="48dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edit_text_city" />
 
-    <TextView
-        android:layout_width="131dp"
-        android:layout_height="38dp"
-        android:text="Contato"
-        android:textSize="19dp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="374dp" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="248dp"
+                android:text="Contato"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.271"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edit_text_state" />
 
-    <EditText
-        android:id="@+id/edit_text_number"
-        android:layout_width="379dp"
-        android:layout_height="wrap_content"
-        android:hint="Número de Telefone:*"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="422dp" />
+            <EditText
+                android:id="@+id/edit_text_number"
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Número de Telefone:*"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
-    <EditText
-        android:id="@+id/edit_text_email"
-        android:layout_width="379dp"
-        android:layout_height="wrap_content"
-        android:hint="E-mail:*"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="479dp" />
+            <EditText
+                android:id="@+id/edit_text_email"
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:hint="E-mail:*"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edit_text_number" />
 
-    <EditText
-        android:id="@+id/edit_text_password"
-        android:layout_width="379dp"
-        android:layout_height="wrap_content"
-        android:hint="Senha:*"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="536dp" />
+            <EditText
+                android:id="@+id/edit_text_password"
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Senha:*"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edit_text_email" />
 
-    <EditText
-        android:id="@+id/edit_text_password_confirm"
-        android:layout_width="379dp"
-        android:layout_height="wrap_content"
-        android:hint="Confirme sua Senha:*"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="590dp" />
+            <EditText
+                android:id="@+id/edit_text_password_confirm"
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:hint="Confirme sua Senha:*"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edit_text_password" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="121dp"
-        android:layout_height="29dp"
-        android:background="@drawable/bg_button_normal"
-        android:text="Voltar"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="654dp" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton2"
+                android:layout_width="121dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/bg_button_normal"
+                android:text="Voltar"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/appCompatButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edit_text_password_confirm" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="123dp"
-        android:layout_height="32dp"
-        android:background="@drawable/bg_button_normal"
-        android:text="Cadastrar"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="240dp"
-        tools:layout_editor_absoluteY="651dp" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/appCompatButton"
+                android:layout_width="123dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="4dp"
+                android:background="@drawable/bg_button_normal"
+                android:text="Cadastrar"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/appCompatButton2"
+                app:layout_constraintTop_toBottomOf="@+id/edit_text_password_confirm" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
